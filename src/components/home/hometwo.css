@@ -1,0 +1,116 @@
+.hometwo {
+  display: flex;
+  flex-direction: column;
+}
+.hometwo-title-text {
+  position: absolute;
+  width: 517px;
+  height: 200px;
+  left: 120px;
+  top: 200px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  /* or 112% */
+  text-align: left;
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+
+  /* Neutral/900 */
+
+  color: #07090d;
+}
+.dream-job {
+  position: absolute;
+  width: 351.51px;
+  height: 72px;
+  left: 200px;
+  top: 323px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 72px;
+  /* identical to box height, or 129% */
+
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+
+  /* Neutral/900 */
+
+  color: #f9a826;
+
+  text-shadow: 4px 4px 0px #000000;
+  transform: rotate(-2.4deg);
+}
+.hometwo-content {
+  position: absolute;
+  width: 448px;
+  height: 96px;
+  left: 120px;
+  top: 450px;
+
+  /* Body/L */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  letter-spacing: -0.26px;
+  text-align: left;
+  font-feature-settings: "ss01" on, "ss03" on, "cv03" on, "cv04" on, "cv06" on,
+    "cv09" on;
+
+  /* Neutral/500 */
+
+  color: #818a9c;
+}
+.hometwo-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  top: 620px;
+  left: 120px;
+}
+.hometwo-button-1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 118px;
+  height: 40px;
+  left: 0px;
+  color: #f9a826;
+  font-family: "Poppins";
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 5px;
+}
+.hometwo-button-2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 118px;
+  height: 40px;
+  left: 138px;
+  font-family: "Poppins";
+  color: #ffffff;
+  background: #f9a826;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 5px;
+}
+.hometwo-button-1:hover {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

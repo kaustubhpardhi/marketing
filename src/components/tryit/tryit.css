@@ -1,0 +1,86 @@
+.tryit {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 2500px;
+}
+.tryit-title {
+  width: 1400px;
+  height: 60px;
+  margin-left: -60px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+
+  /* Neutral/900 */
+
+  color: #07090d;
+}
+.tryit-content {
+  width: 1442px;
+  height: 32px;
+
+  margin-left: -100px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  letter-spacing: -0.26px;
+  font-feature-settings: "ss01" on, "ss03" on, "cv03" on, "cv04" on, "cv06" on,
+    "cv09" on;
+
+  /* Neutral/500 */
+
+  color: #818a9c;
+}
+.button-tryit {
+  display: flex;
+  width: 1000 px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: -100px;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.signup {
+  box-sizing: border-box;
+
+  width: 169.5px;
+  height: 53px;
+  font-family: "Poppins";
+  font-weight: 600;
+  color: #f9a826;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 5px;
+}
+.tryit-button {
+  box-sizing: border-box;
+
+  width: 164.25px;
+  height: 55px;
+
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+  background: #f9a826;
+  border: 1px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 5px;
+}

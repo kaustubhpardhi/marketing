@@ -1,0 +1,196 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+}
+
+.testi-title {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-left: -100px;
+}
+.title1 {
+  position: absolute;
+  width: 1442px;
+  height: 60px;
+  left: -2px;
+  top: 900px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+
+  /* Neutral/900 */
+
+  color: #07090d;
+}
+.title2 {
+  position: absolute;
+  width: 1442px;
+  height: 60px;
+  left: -4px;
+  top: 960px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+
+  color: #f9a826;
+}
+.illustration-1 {
+  position: absolute;
+  left: 82.39%;
+  right: 1.72%;
+  top: 850px;
+  bottom: 44.09%;
+
+  transform: matrix(0.99, 0.16, -0.15, 0.99, 0, 0);
+}
+.testi-cards {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 1100px;
+}
+.testi-card1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 379px;
+  height: 261px;
+  left: 50px;
+  top: 150px;
+}
+.card1-image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 150px;
+  top: -100px;
+
+  border: 1px solid #000000;
+  filter: drop-shadow(1px 1px 0px #000000);
+  border-radius: 6px;
+}
+.card1-content {
+  width: 379px;
+  height: 72px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+
+  color: #111111;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.card1-name {
+  width: 379px;
+  height: 24px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  background: linear-gradient(
+    90deg,
+    #f8a22a 33.25%,
+    rgba(241, 9, 245, 0.91) 67.55%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.testi-card2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}
+.testi-card3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 910px;
+  top: 150px;
+}
+.card-tag {
+  width: 379px;
+  height: 24px;
+  position: absolute;
+  /* Paragraph/Small/Normal */
+  top: 130px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: -0.01em;
+
+  /* Neutral/500 */
+
+  color: #818a9c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.illustration-2 {
+  position: absolute;
+  width: 119.16px;
+  height: 170.75px;
+  left: 60px;
+  top: 950px;
+}
