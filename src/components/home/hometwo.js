@@ -4,8 +4,10 @@ const Hometwo = () => {
   return (
     <div className="hometwo">
       <div className="hometwo-title">
-        <p className="hometwo-title-text">Stand out from the Crowd,land the</p>
-        <p className="dream-job"> Dream Job</p>
+        <p className="hometwo-title-text">
+          Stand out from the Crowd,land the
+          <span className="dream-job"> Dream Job</span>
+        </p>
       </div>
       <div className="hometwo-content">
         <p className="hometwo-content-text">

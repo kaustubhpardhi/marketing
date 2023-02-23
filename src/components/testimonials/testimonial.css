@@ -4,7 +4,7 @@
 }
 
 .testi-title {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@
   margin-left: -100px;
 }
 .title1 {
-  position: absolute;
+  /* position: absolute; */
   width: 1442px;
   height: 60px;
   left: -2px;
@@ -35,7 +35,7 @@
   color: #07090d;
 }
 .title2 {
-  position: absolute;
+  /* position: absolute; */
   width: 1442px;
   height: 60px;
   left: -4px;
@@ -65,22 +65,24 @@
   transform: matrix(0.99, 0.16, -0.15, 0.99, 0, 0);
 }
 .testi-cards {
-  position: absolute;
+  /* position: absolute; */
   display: flex;
   flex-direction: row;
   top: 1100px;
+  justify-content: center;
 }
 .testi-card1 {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
   width: 379px;
   height: 261px;
   left: 50px;
   top: 150px;
+  align-items: center;
 }
 .card1-image {
-  position: absolute;
+  /* position: absolute; */
   width: 80px;
   height: 80px;
   left: 150px;
@@ -149,21 +151,23 @@
 .testi-card2 {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
   left: 500px;
   top: 200px;
+  align-items: center;
 }
 .testi-card3 {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /* position: absolute; */
   left: 910px;
   top: 150px;
+  align-items: center;
 }
 .card-tag {
   width: 379px;
   height: 24px;
-  position: absolute;
+  /* position: absolute; */
   /* Paragraph/Small/Normal */
   top: 130px;
   font-family: "Poppins";
@@ -188,7 +192,7 @@
   flex-grow: 0;
 }
 .illustration-2 {
-  position: absolute;
+  /* position: absolute; */
   width: 119.16px;
   height: 170.75px;
   left: 60px;

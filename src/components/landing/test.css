@@ -1,119 +1,115 @@
 .test {
-    margin-top: 100px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 10px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .header {
-    margin: 0;
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 72px;
-    /* identical to box height, or 150% */
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height, or 150% */
 
-    text-align: center;
-    letter-spacing: -0.015em;
-    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on, 'case' on, 'cpsp' on;
+  text-align: center;
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
 
-    /* Neutral/900 */
+  /* Neutral/900 */
 
-    color: #07090D;
-
+  color: #07090d;
 }
 
 .header2 {
-    margin: 0;
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 72px;
-    letter-spacing: -0.015em;
-    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on, 'case' on, 'cpsp' on;
-    color: #F9A826;
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+  color: #f9a826;
 
-    transform: rotate(0.29deg);
+  transform: rotate(0.29deg);
 }
 
-
 .sections {
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 50px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
 }
 
 .sections_text {
-    /* height: 313px; */
-    width: 44%;
+  /* height: 313px; */
+  width: 44%;
 }
 
 .margin_left {
-    margin-left: 71px;
+  margin-left: 71px;
 }
 
 .sections_text h3 {
-    /* height: 145px; */
-    max-width: 558px;
-    margin-bottom: 10px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 50px;
-    display: flex;
+  /* height: 145px; */
+  max-width: 558px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  display: flex;
 
-    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on, 'case' on, 'cpsp' on;
-    color: #07090D;
-
-
-
-
+  font-feature-settings: "pnum" on, "lnum" on, "ss03" on, "cv03" on, "cv04" on,
+    "cv06" on, "cv09" on, "case" on, "cpsp" on;
+  color: #07090d;
 }
 
 .sections_text p {
-    max-width: 488px;
-    /* height: 128px; */
-    margin: 0;
+  max-width: 488px;
+  /* height: 128px; */
+  margin: 0;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
 
-    letter-spacing: -0.26px;
-    font-feature-settings: 'ss01' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on;
+  letter-spacing: -0.26px;
+  font-feature-settings: "ss01" on, "ss03" on, "cv03" on, "cv04" on, "cv06" on,
+    "cv09" on;
 
-    /* Neutral/500 */
+  /* Neutral/500 */
 
-    color: #818A9C;
-
-
+  color: #818a9c;
 }
 
 .sections_img {
-    box-sizing: border-box;
-    width: 48%;
-    max-width: 588px;
-    height: 313px;
-    /* border: 2px solid #000000; */
-    border-radius: 15px;
+  box-sizing: border-box;
+  width: 48%;
+  max-width: 588px;
+  height: 313px;
+  /* border: 2px solid #000000; */
+  border-radius: 15px;
 }
 
 .sections_img img {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 588px;
-    height: 313px;
-    /* border: 2px solid #000000; */
-    border-radius: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 588px;
+  height: 313px;
+  /* border: 2px solid #000000; */
+  border-radius: 15px;
 }

@@ -1,98 +1,100 @@
 .footer {
-    margin-top: 30px;
-    padding: 50px 100px 50px 100px;
-    background-color: #121212;
+  margin-top: 30px;
+  padding: 50px 100px 50px 100px;
+  background-color: #121212;
 }
 
-
 .footer img {
-    /* width: 26%; */
+  /* width: 26%; */
 }
 
 .footer p {
-    font-weight: 400;
-    font-size: 14px;
-    color: #B8B8B8;
-    letter-spacing: 0.5px;
-    margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  font-family: "Poppins";
 }
 
 .footer_logo {
-    width: 20%;
-    display: flex;
-    justify-content: space-around;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .logo_img {
-    background-color: #F9A826;
-    width: 101px;
-    height: 50px;
-    border-radius: 5px;
+  background-color: #f9a826;
+  width: 101px;
+  height: 50px;
+  border-radius: 5px;
 }
 
 .footer_upper {
-    color: antiquewhite;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-around;
+  color: antiquewhite;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
 }
 
 .footer_upper div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 hr {
-    margin: 20px;
+  margin: 20px;
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 li {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* identical to box height, or 171% */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
 
-    letter-spacing: -0.09px;
-    font-feature-settings: 'ss01' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on;
-    list-style-type: none;
+  letter-spacing: -0.09px;
+  font-feature-settings: "ss01" on, "ss03" on, "cv03" on, "cv04" on, "cv06" on,
+    "cv09" on;
+  list-style-type: none;
 }
 
 li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 h3 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    /* identical to box height, or 171% */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
 
-    letter-spacing: 1.25px;
-    text-transform: uppercase;
-    font-feature-settings: 'ss01' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  font-feature-settings: "ss01" on, "ss03" on, "cv03" on, "cv04" on, "cv06" on,
+    "cv09" on;
 
-    /* Neutral/0 */
+  /* Neutral/0 */
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer_bottum {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .social_icon {
-    display: flex;
-    width: 10%;
-    justify-content: space-around;
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
 }

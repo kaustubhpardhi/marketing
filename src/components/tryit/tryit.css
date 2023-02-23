@@ -1,8 +1,8 @@
 .tryit {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  margin-top: 2500px;
+  /* position: absolute; */
+  margin-top: 1000px;
 }
 .tryit-title {
   width: 1400px;

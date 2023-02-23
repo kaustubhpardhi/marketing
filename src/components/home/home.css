@@ -1,6 +1,11 @@
+.home-media {
+  width: 50%;
+  height: 800px;
+}
 .home {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .media1-img {
   box-sizing: border-box;
