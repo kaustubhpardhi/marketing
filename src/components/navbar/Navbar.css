@@ -1,0 +1,56 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav_logo {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo_img {
+    background-color: #F9A826;
+    width: 101px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.logo_txt {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.5912px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #07090D;
+    margin: 0;
+}
+
+.nav_tabs {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_tabs a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+}
+
+.nav_buttons {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
